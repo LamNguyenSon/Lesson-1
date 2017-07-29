@@ -2,21 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'my-content-right',
-    template: `
-    <article>
-        <h1>London</h1>
-            <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-            <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-    </article>
-`,
-    styles: [`
-    article {
-        margin-left: 170px;
-        border-left: 1px solid gray;
-        padding: 1em;
-        overflow: hidden;
-    }
-`]
+    templateUrl: `./content-right.component.html`,
+    styleUrls: ['./content-right.component.css']
 })
 
 export class ContentRightComponent {
